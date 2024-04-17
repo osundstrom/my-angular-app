@@ -1,0 +1,36 @@
+
+
+#divHeader{
+    text-align: center;
+     ul{
+         list-style: none;
+         text-align: center;
+     }
+     li{
+         display: inline-block;
+         margin-right: 5vw;
+     }
+ 
+     a{
+         text-align: center;
+         background-color: orange;
+         border-radius: 10px;
+         display: block;
+         width: 100px;
+         padding: 5%;
+         text-decoration: none;
+         font-weight: 700;
+         font-style: none;
+         color: black;
+     }
+ 
+     a:hover{
+         background-color: green;
+     }
+     .current{
+        color: white;
+        text-decoration: underline;
+
+    }
+ }
+ 
