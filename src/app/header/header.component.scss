@@ -1,5 +1,8 @@
 
 
+
+
+@media (min-width: 601px) {
 #divHeader{
     background-color: lightcoral;
     width: 100vw;
@@ -8,17 +11,21 @@
     margin-left: -3vw;
     margin-top: -2vh;
     padding-bottom: 0.1vh;
+    border-bottom: 1px solid black;
     
      ul{
          list-style: none;
-         text-align: center;
-
+         margin: 0 auto;
+         margin-left: -5vw;
+         padding-bottom: 1vh;
          
+
      }
      li{
          display: inline-block;
-         margin-right: 5vw;
-         text-align: center;
+         margin-left: 5vw;
+         
+         border-radius: 10px;
          
      }
  
@@ -27,16 +34,17 @@
          background-color: aliceblue;
          border-radius: 10px;
          display: block;
-         width: fit-content;
-         padding: 8%;
+         min-width: 80px;
+         width: 15vw;
          text-decoration: none;
          font-weight: 700;
          font-style: none;
          color: black;
-         margin-bottom: 1vh;
-         font-size: 90%;
+         font-size: 120%;
          white-space: nowrap;
-         margin: 0 auto;
+         padding: 4%;
+         
+         
      }
  
      a:hover{
@@ -49,5 +57,68 @@
         background-color: rgb(85, 3, 3);
 
     }
- }
- 
+ }}
+
+
+ //-----------------------------------------------------//
+ //-----------------------------------------------------//
+ //-----------------------------------------------------//
+ //-----------------------------------------------------//
+
+ @media (max-width: 600px) {
+    #divHeader{
+        background-color: lightcoral;
+        width: 100vw;
+        padding-top: 2vh;
+        padding-left: 3vw;
+        margin-left: -3vw;
+        margin-top: -2vh;
+        padding-bottom: 0.1vh;
+        border-bottom: 1px solid black;
+        
+         ul{
+             list-style: none;
+             margin: 0 auto;
+             margin-left: -20vw;
+             padding-bottom: 1vh;
+             
+    
+         }
+         li{
+             display: inline-block;
+             margin-left: 5vw;
+             
+            border-radius: 10px;
+         }
+     
+         a{
+            margin: 0 auto;
+             text-align: center;
+             background-color: aliceblue;
+             border-radius: 10px;
+             display: block;
+             position: relative;
+             min-width: 80px;
+             width: 10vw;
+             text-decoration: none;
+             font-weight: 700;
+             font-style: none;
+             color: black;
+             font-size: 90%;
+             white-space: nowrap;
+             padding: 3%;
+             
+             
+         }
+     
+         a:hover{
+             text-decoration: underline;
+         }
+         .current{
+            color: aliceblue;
+            border: 1px solid black;
+            text-decoration: underline;
+            background-color: rgb(85, 3, 3);
+    
+        }
+     }}
