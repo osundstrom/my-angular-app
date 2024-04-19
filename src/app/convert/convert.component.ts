@@ -11,7 +11,7 @@ import { FormsModule } from '@angular/forms';
 export class ConvertComponent {
   inputValue: number = 0; //Sätter startvärde
   convertUnits: string = "choose"; //Sätter startvärde
-  results: any = "Skriv in värden"; //Resultat är tomt samt any då jag har text + number
+  results: any = ""; //Resultat är tomt samt any då jag har text + number
   
 
 
