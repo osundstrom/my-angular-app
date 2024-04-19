@@ -1,17 +1,28 @@
- 
+ /*#allHome{
+    img{
+        z-index: -1;
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
+ }*/
+
 #welcome{
-    font-size: 150%;
+    font-size: 130%;
     font-weight: 900;
     text-decoration: underline;
+    margin-bottom: 3vh;
 }
 
 #explainDiv{
     font-size: 120%;
-    background-color: lightcoral;
     padding: 1%;
-    width: fit-content;
-    margin:auto;
+    margin: 0 auto;
+    margin-top: 4vh;
+    width: 90vw;
+    background-image: url(/assets/bilder/startBack.jpg);
     border: 1px solid black;
+    border-radius: 10px;
 }
 
     

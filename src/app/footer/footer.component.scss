@@ -1,14 +1,26 @@
 
 #footerAll{
     width: 102vw;
-    height: 8vh;
+    height: 5vh;
     background-color: lightcoral;
     border-top: 1px solid black;
     bottom: 0;
     left: -1vw;
-    position: absolute;
+    position: fixed;
+    margin-top: 2vh;
     p{
         line-height: 10%;
         margin-top: 2vh;
+        a{
+            text-decoration: none;
+            font-style: none;
+            color: black;
+            padding: 1px;
+            border-radius: 10px;
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
     }
-}
+}   

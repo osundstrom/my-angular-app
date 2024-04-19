@@ -1,9 +1,21 @@
+
+#allForm{
+    background-image: url(/assets/bilder/startBack.jpg);
+    width: fit-content;
+    margin: auto;
+    margin-top: 8vh;
+    padding: 2%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
 form{
     display: flex;
     flex-direction: column;
     width: fit-content;
     margin: 0 auto;
-    margin-top: 8vh;
+    
+    
     label{
         font-size: 200%;
         text-align: left;
@@ -38,13 +50,12 @@ form{
         width: 10vw;
         margin: auto;
         background-color: lightcoral;
-        height: 6vh;
-        min-height: 50px;
+        min-height: fit-content;
         border: 1px solid black;
         border-radius: 10px;
         
 #results{
-    font-size: 150%;
+    font-size: 130%;
     padding: 1%;
     margin: 0 auto;
     margin-top: 1.4vh;
