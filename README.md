@@ -1,27 +1,8 @@
-# MyAngularApp
+# Moment 3 - Angular 1
+## Arbetet
+Det första jag gjorde var att starta ett nytt Angular projekt, i detta projekt så skapade jag componenter för de delar jag fann nödvända. Jag skapade en komponenet för repsektive sida, samt en för error om man råkar skriva fel i länken. Det skapades även komponenter för header (navigering) samt footer.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.4.
+Den första komponent jag gjorde färdig var error sidan, även om jag ändra den lite senare in i arbetet. Efter error sidan skapade jag en navigering i header komponenten och en footer i footer komponeneten. Efter navigeringen/footern gjorde jag koden för att konvertera mellan olika enheter, Slutligen gjorde jag Om sidan och Startsidan.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Slutsats
+Jag tycker att Angular är extremt bra, det underlättar många sysslor som man annars får gör göra manuellt, det styörsta fördelen för mig är hur den så enklet kan hitta information i TypeScript koden till HTML utan att behöva skriva massa extra kod. Emeplevis då man använde ngModel. Det tog dock en stund innan man förstod hur man kunde använda saker, jag la exempelvis in bild via vanligt img förs, sen ändrade jag till ngSrc efter jag läst på Angular hemsidan, men sen så sa vi i föreläsning att man skulle göra det via TypeScript i form (aboutSign: string = "/assets/bilder/info640x428.jpg";), detta är ifrån min about sida. Slutade även med att jag la in bilder både via TypeScript på det tidigarew förklarade sättet samt backgrund-image i SCSS, vet inte vilket som föredras i det läget om det finns någon födel med att lägga till det via TypeScript över i stylingen
