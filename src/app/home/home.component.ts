@@ -8,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './home.component.scss'
 })
 export class HomeComponent {
+  welcomeSign: string = "/assets/bilder/welcomeUnsplash.jpg";
+
+  
+
 
 }

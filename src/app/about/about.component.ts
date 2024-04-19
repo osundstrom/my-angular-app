@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './about.component.scss'
 })
 export class AboutComponent {
-
+  aboutSign: string = "/assets/bilder/info640x428.jpg";
 }
