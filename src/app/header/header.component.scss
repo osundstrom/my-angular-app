@@ -5,6 +5,7 @@
 @media (min-width: 601px) {
 #divHeader{
     background-image: url(/assets/bilder/startBack1.jpg);
+    background-repeat: round;
     width: 100vw;
     padding-top: 2vh;
     padding-left: 3vw;
@@ -68,7 +69,8 @@
 
  @media (max-width: 600px) {
     #divHeader{
-        background-color: #f84848;
+        background-image: url(/assets/bilder/startBack1.jpg);
+        background-repeat: round;
         width: 100vw;
         padding-top: 2vh;
         padding-left: 3vw;
