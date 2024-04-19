@@ -10,5 +10,5 @@ import { RouterLink } from '@angular/router';
   styleUrl: './error.component.scss'
 })
 export class ErrorComponent {
-
+  errorImage: string = "/assets/bilder/errorPhone.jpg";
 }

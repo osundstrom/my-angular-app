@@ -1,1 +1,22 @@
 <h1>Konvertera</h1>
+
+<form name="form">
+    <label>Värde: </label>
+        <input name="inputValue" [(ngModel)]="inputValue" type="number" > <!--Så värdet tas till convert.component.ts -->
+
+    <label for="convert">Konvertera mellan </label>
+        <select name="convert" id="convertId" [(ngModel)]="convertUnits" >  <!--Så värdet tas till convert.component.ts -->
+            <option value="choose">Välj</option>
+            <option value="meter"> Meter -> feet</option>
+            <option value="feet"> Feet -> meter</option>
+            <option value="celcius"> Celcius -> Fahrenheit</option>
+            <option value="fahrenheit"> Fahrenheit -> Celcius</option>
+        </select>
+
+    
+        <button (click)="convert()"> Konvertera </button> <!--vid click körs convert-->
+</form>
+
+<div id="results">
+    {{this.results}} <!--Skriver ut resultaten från convert.component.ts-->
+</div>

@@ -1,35 +1,52 @@
 
 
 #divHeader{
-    text-align: center;
+    background-color: lightcoral;
+    width: 100vw;
+    padding-top: 2vh;
+    padding-left: 3vw;
+    margin-left: -3vw;
+    margin-top: -2vh;
+    padding-bottom: 0.1vh;
+    
      ul{
          list-style: none;
          text-align: center;
+
+         
      }
      li{
          display: inline-block;
          margin-right: 5vw;
+         text-align: center;
+         
      }
  
      a{
          text-align: center;
-         background-color: orange;
+         background-color: aliceblue;
          border-radius: 10px;
          display: block;
-         width: 100px;
-         padding: 5%;
+         width: fit-content;
+         padding: 8%;
          text-decoration: none;
          font-weight: 700;
          font-style: none;
          color: black;
+         margin-bottom: 1vh;
+         font-size: 90%;
+         white-space: nowrap;
+         margin: 0 auto;
      }
  
      a:hover{
-         background-color: green;
+         text-decoration: underline;
      }
      .current{
-        color: white;
+        color: aliceblue;
+        border: 1px solid black;
         text-decoration: underline;
+        background-color: rgb(85, 3, 3);
 
     }
  }
