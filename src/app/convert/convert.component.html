@@ -1,10 +1,9 @@
-<h1>Konvertera</h1>
 
 <form name="form">
-    <label>Värde: </label>
+    <label>Värde </label>
         <input name="inputValue" [(ngModel)]="inputValue" type="number" > <!--Så värdet tas till convert.component.ts -->
 
-    <label for="convert">Konvertera mellan </label>
+    <label for="convert">Enheter </label>
         <select name="convert" id="convertId" [(ngModel)]="convertUnits" >  <!--Så värdet tas till convert.component.ts -->
             <option value="choose">Välj</option>
             <option value="meter"> Meter -> feet</option>
@@ -17,6 +16,8 @@
         <button (click)="convert()"> Konvertera </button> <!--vid click körs convert-->
 </form>
 
-<div id="results">
-    {{this.results}} <!--Skriver ut resultaten från convert.component.ts-->
+<div id="resultatP"><p>Resultat</p></div>
+
+<div id="resultsDiv" >
+    <div id="results">{{this.results}} </div><!--Skriver ut resultaten från convert.component.ts-->
 </div>

@@ -12,6 +12,8 @@ export class ConvertComponent {
   inputValue: number = 0; //Sätter startvärde
   convertUnits: string = "choose"; //Sätter startvärde
   results: any = ""; //Resultat är tomt samt any då jag har text + number
+  
+
 
   convert(): void { 
     switch(this.convertUnits){ //switch sats
@@ -20,7 +22,7 @@ export class ConvertComponent {
       break;
 
       case ("meter"):  //Vid meter tilll feet
-      this.results = (this.inputValue * 3.28) + " Feet"; //Beräkna
+      this.results = (this.inputValue * 3.28) + " Feet"; //Beräkna'
       break;
 
       case ("feet"):  //Vid feet till meter
@@ -37,7 +39,8 @@ export class ConvertComponent {
 
     }
 
-    
+}
 
-  
-}}
+
+
+}

@@ -1,0 +1,62 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 8vh;
+    label{
+        font-size: 200%;
+        text-align: left;
+    }
+    input{
+        height: 5vh;
+        font-size: 150%;
+        min-width: 245px;
+        width: 10vw;
+    }
+
+    select {
+        height: 6vh;
+        font-size: 150%;
+        width: fit-content;
+    }
+
+    button{
+        font-size: 200%;
+        margin-top: 2vh;
+        border-radius: 10px;
+    }
+
+    button:hover{
+        background-color: lightgreen;
+    }
+}
+
+#resultsDiv{
+    min-width: 245px;
+        width: 10vw;
+        margin: auto;
+        background-color: lightcoral;
+        height: 6vh;
+        min-height: 50px;
+        border: 1px solid black;
+        border-radius: 10px;
+        
+#results{
+    font-size: 150%;
+    padding: 1%;
+    margin: 0 auto;
+    margin-top: 1.4vh;
+    font-weight: 900;
+    width: fit-content;
+    
+}
+
+}
+
+#resultatP{
+    font-size: 150%;
+    text-decoration: underline;
+    font-weight: 600;
+    margin-bottom: -2vh;
+}
