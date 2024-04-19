@@ -12,6 +12,7 @@
     font-weight: 900;
     text-decoration: underline;
     margin-bottom: 3vh;
+    
 }
 
 #explainDiv{
@@ -20,10 +21,20 @@
     margin: 0 auto;
     margin-top: 4vh;
     width: 90vw;
-    background-image: url(/assets/bilder/startBack.jpg);
+    background-image: url(/assets/bilder/startBack1.jpg);
     border: 1px solid black;
     border-radius: 10px;
+    h1{
+        color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px  1px 0 #000, 1px  1px 0 #000;
+    }
+   
 }
 
+.explain {
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px  1px 0 #000, 1px  1px 0 #000;
+    
+}
     
 
